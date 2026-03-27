@@ -1,0 +1,56 @@
+export const plans = [
+  {
+    id: 1,
+    name: "Plan Prueba",
+    duration: "15 días",
+    price: null,
+    priceText: "Consultá",
+    highlight: false,
+    features: [
+      "Acceso libre en horarios vigentes",
+      "Sin compromiso",
+      "Ideal para conocer el gimnasio",
+    ],
+  },
+  {
+    id: 2,
+    name: "Plan Mensual",
+    duration: "1 mes",
+    price: null,
+    priceText: "Consultá",
+    highlight: false,
+    features: [
+      "Acceso completo Lun-Sáb",
+      "Guía de ejercicios",
+      "Seguimiento de progreso",
+    ],
+  },
+  {
+    id: 3,
+    name: "Plan Dúo",
+    duration: "1 mes",
+    price: null,
+    priceText: "Consultá",
+    highlight: true,
+    badge: "Más elegido",
+    features: [
+      "2 personas",
+      "Acceso completo Lun-Sáb",
+      "Guía de ejercicios",
+      "Ahorrás entrenando juntos",
+    ],
+  },
+  {
+    id: 4,
+    name: "Plan Horario Reducido",
+    duration: "1 mes",
+    price: null,
+    priceText: "Consultá",
+    highlight: false,
+    features: [
+      "Franja horaria específica",
+      "Ideal para rutinas fijas",
+      "Precio diferencial",
+    ],
+  },
+];
